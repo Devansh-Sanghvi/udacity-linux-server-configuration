@@ -132,6 +132,8 @@ CustomLog ${APACHE_LOG_DIR}/access.log combined
 16. Restart Apache
 - `sudo service apache2 restart`
 
-17. Visit site at [http://35.178.211.6](http://35.178.211.6)
+17. Special thanks to stueken who wrote a really helpful README in his repository.
+
+18. Visit site at [http://35.178.211.6](http://35.178.211.6)
 
 
