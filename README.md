@@ -4,11 +4,11 @@
 
 Take a baseline installation of a Linux distribution on a virtual machine and prepare it to host your web applications, to include installing updates, securing it from a number of attack vectors and installing/configuring web and database servers.
 
-- IP address: 35.178.204.93
+- IP address: 54.82.201.241
 
-- Accessible SSH port: 22
+- Accessible SSH port: 2200
 
--Accessible using : ssh grader@35.178.204.93 -p 22
+-Accessible using : ssh grader@54.82.201.241 -p 2200
 
 
 
@@ -92,9 +92,9 @@ application.secret_key = 'supersecretkey'
 - Paste this code:
 ```
 <VirtualHost *:80>
-ServerName 35.178.204.93
+ServerName 54.82.201.241
 
-ServerAdmin admin@35.178.204.93
+ServerAdmin admin@54.82.201.241
 WSGIDaemonProcess catalog python-path=/var/www/catalog:/var/www/catalog/venv/lib/python2.7/site-packages
 WSGIProcessGroup catalog
 WSGIScriptAlias / /var/www/catalog/catalog.wsgi
@@ -134,6 +134,6 @@ CustomLog ${APACHE_LOG_DIR}/access.log combined
 
 17. Special thanks to stueken who wrote a really helpful README in his repository.
 
-18. Visit site at [http://35.178.204.93](http://35.178.204.93)
+18. Visit site at [http://54.82.201.241](http://54.82.201.241)
 
 
